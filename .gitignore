@@ -2,7 +2,8 @@
 
 env/
 
-*.jpg
-*.jpeg
-*.png
+
+# *.jpg
+# *.jpeg
+# *.png
 
