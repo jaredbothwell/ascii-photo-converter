@@ -1,12 +1,12 @@
 from PIL import Image
 from time import sleep
-#fileName = input("File Name: ")
-im = Image.open("panda.jpg")
+
+fileName = input("Path to file: ")
+im = Image.open(fileName)
 print(im.format, im.size, im.mode)
 
 pixels = im.load()
 width, height = im.size
-
 pixelArray = []
 for y in range(height):
     row = []
